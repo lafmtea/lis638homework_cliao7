@@ -12,13 +12,13 @@
 					//total change
 					$change = 159;
 					//dollar
-					if ($change >= 100) {
+					if ($change >= 0) {
 						$remain = $change / 100;
 						$dollar = (int) ($remain);
 						$change = $change - ($dollar*100);
 					}
 					//quater
-					if ($change >= 25) {
+					if ($change >= 0) {
 						$remain = $change / 25;
 						$quarter = (int) ($remain);
 						$change = $change - ($quarter*25);
@@ -30,7 +30,7 @@
 						$change = $change - ($dime*10);
 					}
 					//nickle
-					if ($change >= 5) {
+					if ($change >= 0) {
 						$remain = $change / 5;
 						$nickle = (int) ($remain);
 						$change = $change - ($nickle*5);
