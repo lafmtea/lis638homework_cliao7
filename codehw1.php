@@ -8,9 +8,10 @@
 
 			<h1>Challenge 1: Correct Change</h1>
 	<?php
-					echo "You are due 159 cents back in change total.";
 					//total change
-					$change = 159;
+					$change = 157;
+					echo "You are due " . $change . " cents back in change total.";
+
 					//dollar
 					if ($change >= 0) {
 						$remain = $change / 100;
