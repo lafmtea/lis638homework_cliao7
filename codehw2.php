@@ -20,7 +20,7 @@
              }
 	             return $sum;
              }
-             echo "Checkinf isbn " . $isbn . " for validity...";
+             echo "Checking isbn " . $isbn . " for validity...";
              //%11//
              function isbn_compute($isbn, $len){
 		            $digit = 11 - isbn_sum($isbn, $len) % 11;
