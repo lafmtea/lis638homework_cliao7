@@ -33,212 +33,30 @@
                 }
       ?>
       <?php
-      echo "Flipping a coin 1 time...";
-      echo "<br>";
+      function radomcoin(){
       $headCount = mt_rand(0,1);
       if ($headCount == 0) {
       echo "<img src=\"H.jpg\">";
       }
       else {
       echo "<img src=\"T.jpg\">";
-      echo "<br>";
       }
+    }
+      echo "Flipping a coin 1 time...";
+      echo "<br>";
+      radomcoin();
       echo "<br>";
       echo "Flipping a coin 3 time...";
       echo "<br>";
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      echo "<br>";
-      echo "Flipping a coin 5 time...";
-      echo "<br>";
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
+      radomcoin();radomcoin();radomcoin();
       echo "<br>";
       echo "Flipping a coin 7 time...";
       echo "<br>";
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
+      radomcoin();radomcoin();radomcoin();radomcoin();radomcoin();radomcoin();radomcoin();
       echo "<br>";
       echo "Flipping a coin 9 time...";
       echo "<br>";
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      }
-      $headCount = mt_rand(0,1);
-      if ($headCount == 0) {
-      echo "<img src=\"H.jpg\">";
-      }
-      else {
-      echo "<img src=\"T.jpg\">";
-      echo "<br>";
-      }
+      radomcoin();radomcoin();radomcoin();radomcoin();radomcoin();radomcoin();radomcoin();radomcoin();radomcoin();
       ?>
 
       <h1>We are going to flip a coin until we get Two heads in a row!</h1>
