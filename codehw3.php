@@ -22,7 +22,7 @@
     // data rows
     foreach( $books as $title=>$data){
         $info .= '<tr>';
-        foreach($data as $title2=>$data2){
+    foreach($data as $title2=>$data2){
             $info .= '<td>' . htmlspecialchars($data2) . '</td>';
         }
         $info .= '</tr>';
@@ -62,7 +62,7 @@
          $flipCount = 0;
          while ($headCount < $coinToss) {
            $flip = mt_rand(0,1);
-           $flipCount ++;
+           ++$flipCount;
            if ($flip){
              ++ $headCount;
              echo "<img src=\"H.jpg\">";
@@ -72,13 +72,12 @@
                echo "<img src=\"T.jpg\">";
              }
            }
-           return $flipCount ++;
+           return $flipCount;
          }
        $result = coinflip($coinToss);
        echo coinflip($coinToss);
        echo "<br>";
        echo "Flipped {$coinToss} heads in a row, in {$result} flips!";
-     ?>
      ?>
   </body>
 </head>
