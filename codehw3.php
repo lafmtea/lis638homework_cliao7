@@ -57,15 +57,14 @@
        echo "Begginning the coin flipping, looking for " . $coinToss . " in a row.";
        echo "<br>";
 
-       function coinflip(){
+       function coinflip($coinToss){
          $headCount = 0;
          $flipCount = 0;
-         $coinToss = 8;
          while ($headCount < $coinToss) {
            $flip = mt_rand(0,1);
            $flipCount ++;
            if ($flip){
-             $headCount ++;
+             ++ $headCount;
              echo "<img src=\"H.jpg\">";
            }
            else {
@@ -73,11 +72,13 @@
                echo "<img src=\"T.jpg\">";
              }
            }
+           return $flipCount ++;
          }
-
-       echo coinflip();
+       $result = coinflip($coinToss);
+       echo coinflip($coinToss);
        echo "<br>";
-       echo "Flipped {$coinToss} heads in a row, in {$flipCount} flips!";
+       echo "Flipped {$coinToss} heads in a row, in {$result} flips!";
+     ?>
      ?>
   </body>
 </head>
